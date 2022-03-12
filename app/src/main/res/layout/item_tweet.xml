@@ -25,14 +25,17 @@
 
     <TextView
         android:id="@+id/tvTweetBody"
-        android:layout_margin = "5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvUsername"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="This is my tweet" />
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:text="This is the text. google.com"/>
 
     <TextView
         android:id="@+id/tvTimeStamp"
